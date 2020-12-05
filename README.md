@@ -1,4 +1,4 @@
-#How to.. 
+# How to.. 
 
 build the container<br />
 docker build -t lorem-ipsum:v1 .
@@ -19,7 +19,7 @@ kubectl get pods -l app=nginx
 kubectl delete deployment nginx-deployment
 
 
-#Ways to scale..
+# Ways to scale..
 1. Could be done by updating the number of replicas from the kube yaml file.
 
 2. Could also be achieved by applying horizontal autoscale method within Kubenetes

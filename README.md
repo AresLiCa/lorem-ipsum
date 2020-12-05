@@ -24,4 +24,5 @@ kubectl delete deployment nginx-deployment
 
 2. Could also be achieved by applying horizontal autoscale method within Kubenetes
 
-
+# Sample screenshot
+![Alt text](/sample.png?raw=true "Sample")

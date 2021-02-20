@@ -22,12 +22,15 @@ public class Program
 												   "Check performance"
 												  },"VM scale set performance viewing",5);
 		
-		
-		
-		
-		
-		
-		
+		Question q3 = new Question(new ArrayList(){"Log in to Storage Explorer",
+												   "Connect to Azure storage account",
+												   "Create a blob continer",
+												   "Upload blob to the container",
+												   "Get SAS for blobs and configure start and expiry time",
+												   "Distribute URL to the client with HTTPS"
+												  },"VM scale set performance viewing",6);
+
+
 	}
 }
 

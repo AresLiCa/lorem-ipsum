@@ -15,6 +15,14 @@ public class Program
 												   "Install ASRP on 5 vms"
 												  },"Replicate throgh Azure Site Recovery",3);
 		
+		Question q2 = new Question(new ArrayList(){"Select virtual machine scale sets",
+												   "Select virtual machine from the list",
+												   "Go to the monitoring section",
+												   "Choose insights",
+												   "Check performance"
+												  },"VM scale set performance viewing",5);
+		
+		
 		
 		
 		
@@ -59,7 +67,8 @@ public class Question{
 		foreach (string o in option_list){
 			Console.WriteLine(o);
 		}
-	
+		Console.WriteLine("");Console.WriteLine("");Console.WriteLine("");
+		
 	}
 
 }
